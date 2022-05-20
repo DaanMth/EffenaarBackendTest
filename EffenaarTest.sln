@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffenaarTest.Logic", "Effen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffenaarTest.Interfaces", "EffenaarTest.Interfaces\EffenaarTest.Interfaces.csproj", "{0FD77645-D806-42E5-A185-4272432A4019}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffenaarTest.Data", "EffenaarTest.Data\EffenaarTest.Data.csproj", "{2BEEB770-4A3C-43EC-9326-EA24366F74F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{0FD77645-D806-42E5-A185-4272432A4019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD77645-D806-42E5-A185-4272432A4019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD77645-D806-42E5-A185-4272432A4019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEEB770-4A3C-43EC-9326-EA24366F74F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEEB770-4A3C-43EC-9326-EA24366F74F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEEB770-4A3C-43EC-9326-EA24366F74F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEEB770-4A3C-43EC-9326-EA24366F74F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
