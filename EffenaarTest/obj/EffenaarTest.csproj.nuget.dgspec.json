@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest\\EffenaarTest.csproj": {}
+    "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest\\EffenaarTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest\\EffenaarTest.csproj": {
+    "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest\\EffenaarTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest\\EffenaarTest.csproj",
+        "projectUniqueName": "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest\\EffenaarTest.csproj",
         "projectName": "EffenaarTest",
-        "projectPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest\\EffenaarTest.csproj",
-        "packagesPath": "C:\\Users\\dmath\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest\\obj\\",
+        "projectPath": "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest\\EffenaarTest.csproj",
+        "packagesPath": "C:\\Users\\td10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dmath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\td10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
