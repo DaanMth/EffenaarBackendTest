@@ -15,7 +15,7 @@ namespace FoodooBackend.Api.Controllers
     {
         private readonly AccountLogic _accountLogic;
         
-        public AccountController(FoodooContext context)
+        public AccountController(EffenaarContext context)
         {
             _accountLogic = new AccountLogic(new AccountData(context));
         }

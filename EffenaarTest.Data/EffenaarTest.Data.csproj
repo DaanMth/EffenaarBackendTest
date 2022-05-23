@@ -4,4 +4,13 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EffenaarTest.Interfaces\EffenaarTest.Interfaces.csproj" />
+      <ProjectReference Include="..\EffenaarTest.Model\EffenaarTest.Model.csproj" />
+    </ItemGroup>
+
 </Project>

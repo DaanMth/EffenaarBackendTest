@@ -27,7 +27,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Interfaces\\EffenaarTest.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Interfaces\\EffenaarTest.Interfaces.csproj"
+              },
+              "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj": {
+                "projectPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -39,6 +46,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -81,7 +94,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj": {
+                "projectPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -135,7 +152,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Interfaces\\EffenaarTest.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Interfaces\\EffenaarTest.Interfaces.csproj"
+              },
+              "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj": {
+                "projectPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
