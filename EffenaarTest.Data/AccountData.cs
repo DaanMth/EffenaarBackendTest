@@ -19,7 +19,6 @@ namespace EffenaarTest.Data
         public void Register(accountModel account)
         {
             _context.Accounts.Add(account);
-            _context.SaveChanges();
             
         }
 
