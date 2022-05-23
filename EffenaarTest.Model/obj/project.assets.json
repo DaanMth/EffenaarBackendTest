@@ -620,23 +620,24 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MongoDB.Bson >= 2.15.1",
       "MongoDB.Driver >= 2.15.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\td10\\.nuget\\packages\\": {}
+    "C:\\Users\\dmath\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj",
+      "projectUniqueName": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj",
       "projectName": "EffenaarTest.Model",
-      "projectPath": "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj",
-      "packagesPath": "C:\\Users\\td10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest.Model\\obj\\",
+      "projectPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj",
+      "packagesPath": "C:\\Users\\dmath\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\td10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dmath\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -662,6 +663,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.15.1, )"
+          },
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.15.1, )"
@@ -682,7 +687,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

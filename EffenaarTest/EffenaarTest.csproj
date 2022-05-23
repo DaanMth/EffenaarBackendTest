@@ -9,4 +9,11 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\EffenaarTest.Data\EffenaarTest.Data.csproj" />
+      <ProjectReference Include="..\EffenaarTest.Interfaces\EffenaarTest.Interfaces.csproj" />
+      <ProjectReference Include="..\EffenaarTest.Logic\EffenaarTest.Logic.csproj" />
+      <ProjectReference Include="..\EffenaarTest.Model\EffenaarTest.Model.csproj" />
+    </ItemGroup>
+
 </Project>

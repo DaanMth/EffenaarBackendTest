@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "YrOxwqIo9csQ0AdVnGoEfbRzWIX2h5ZjJ4ZoVSKV1OFs+8FeFYT6ZUumLHAZegIsLOM/lna27UfX0B2EOSvCMw==",
+  "dgSpecHash": "K1ABmiIjMiLb/NBYmwc0jYpYMZphXhHkEbgKrPiuAmv83UR9ScYTFFSB96ytEfseW+b45dA38R4/UmtW3Q27ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\td10\\OneDrive - Office 365 Fontys\\Software\\Semester 4\\Group Project\\Backend\\EffenaarBackendTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj",
+  "projectFilePath": "C:\\Users\\dmath\\RiderProjects\\EffenaarTest\\EffenaarTest.Model\\EffenaarTest.Model.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\td10\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\mongodb.driver\\2.15.1\\mongodb.driver.2.15.1.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\mongodb.driver.core\\2.15.1\\mongodb.driver.core.2.15.1.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\td10\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+    "C:\\Users\\dmath\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\mongodb.driver\\2.15.1\\mongodb.driver.2.15.1.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\mongodb.driver.core\\2.15.1\\mongodb.driver.core.2.15.1.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\dmath\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

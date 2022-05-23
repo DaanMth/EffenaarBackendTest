@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = EffenaarTest.Logic
-build_property.ProjectDir = C:\Users\td10\OneDrive - Office 365 Fontys\Software\Semester 4\Group Project\Backend\EffenaarBackendTest\EffenaarTest.Logic\
+build_property.ProjectDir = C:\Users\dmath\RiderProjects\EffenaarTest\EffenaarTest.Logic\
