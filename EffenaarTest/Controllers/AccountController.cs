@@ -39,11 +39,5 @@ namespace FoodooBackend.Api.Controllers
             
         }
 
-        [HttpPost("/googleauth/{token}")]
-        public async Task<ActionResult<Account>> GoogleLogin(string token)
-        {
-            Account account = await _accountLogic.GoogleAuth(token);
-            return account;
-        }
     }
 }

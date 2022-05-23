@@ -10,5 +10,12 @@ namespace EffenaarTest.Model
         public string Password { get; set; }
         public int Coins { get; set; }
         public List<achievementModel> Achievements { get; set; }
+        
+        public accountModel(string email, string username, string password)
+        {
+            Email = email;
+            Username = username;
+            Password = password;
+        }
     }
 }

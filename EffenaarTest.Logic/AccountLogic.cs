@@ -11,9 +11,9 @@ namespace EffenaarTest.Logic
         {
             _accountData = accountData;
         }
-        public string Register(ApiAccount apiAccount)
+        public string Register(accountModel apiAccount)
         {
-            Account account = new Account(apiAccount.Email, apiAccount.Username, apiAccount.Password);
+            accountModel account = new accountModel(apiAccount.Email, apiAccount.Username, apiAccount.Password);
             if (_accountData.GetAccountByEmail(apiAccount.Email) != null)
                 return "Email taken";
             if (_accountData.GetAccountByUsername(apiAccount.Username) != null)
@@ -23,9 +23,9 @@ namespace EffenaarTest.Logic
             return "success";
         }
 
-        public string Login(ApiAccount apiAccount)
+        public string Login(accountModel apiAccount)
         {
-            Account account = _accountData.GetAccountByEmail(apiAccount.Email);
+            accountModel account = _accountData.GetAccountByEmail(apiAccount.Email);
             if (account.Password != null && account.ValidatePassword(apiAccount.Password))
             {
                 return AuthenticationLogic.GenerateToken(account.Id.ToString(), account.Username, account.Email);
