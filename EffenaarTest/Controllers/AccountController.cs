@@ -6,14 +6,20 @@ using EffenaarTest.Model;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FoodooBackend.Api.Controllers
+namespace EffenaarTest.Controllers
 {
     [EnableCors("AllowCORS")]
     [ApiController]
     [Route("[controller]")]
     public class AccountController : Controller
     {
+        private readonly AccountLogic _accountLogic;
         
+        [HttpPost("/account/register")]
+        public void Register(accountModel account)
+        {
+            _accountLogic.Register(account);
+        }
 
     }
 }
