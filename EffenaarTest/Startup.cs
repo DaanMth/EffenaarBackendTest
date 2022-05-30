@@ -26,7 +26,7 @@ namespace EffenaarTest
             Configuration = configuration;
         }
 
-        private readonly string effenaarDb = "Server=localhost;Uid=root;Database=foodoodb;Pwd=root;";
+        private readonly string effenaarDb = "Server=localhost;Uid=root;Database=EffenaarDB;Pwd=root;";
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
