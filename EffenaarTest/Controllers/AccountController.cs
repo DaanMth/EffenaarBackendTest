@@ -21,5 +21,10 @@ namespace EffenaarTest.Controllers
             _accountLogic.Register(account);
         }
 
+        [HttpPost("/account/login")]
+        public void Login(accountModel accountModel)
+        {
+            _accountLogic.Login(accountModel);
+        }
     }
 }

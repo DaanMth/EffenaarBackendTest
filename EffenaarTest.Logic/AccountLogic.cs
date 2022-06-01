@@ -1,5 +1,6 @@
 ﻿using EffenaarTest.Model;
 using EffenaarTest.Interfaces;
+using FoodooBackend.Logic;
 
 namespace EffenaarTest.Logic
 {
@@ -15,9 +16,22 @@ namespace EffenaarTest.Logic
                 return "Username taken";
             
             _accountData.Register(registerAccount);
-            return "succesfully logged in";
+            return "succesfully registred";
         }
 
+        public string Login(accountModel accountM)
+        {
+            accountModel account = _accountData.GetAccountByEmail(accountM.Email);
+            if (account.Password != null && account.ValidatePassword(accountM.Password))
+            {
+                return AuthenticationLogic.GenerateToken(account.Id.ToString(), account.Username, account.Email);
+            }
+            else
+            {
+                return "wrong password or username";
+            }
+
+        }
         
             
     }
